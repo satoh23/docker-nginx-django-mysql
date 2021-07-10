@@ -1,11 +1,11 @@
-# DockerImage(nginx, python, django mysql)
+# Docker-Image(nginx, python, django mysql)
 
 DockerImage
 
 # Usage
 
 ```bash
-git clone https://github.com/docker-nginx-django-mysql
+git clone https://github.com/satoh23/docker-nginx-django-mysql.git
 docker-compose run python django-admin startproject config .
 docker-compose up -d
 
